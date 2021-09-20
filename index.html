@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+
+<head></head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+ 
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+ height:90vh;
+  float: left;
+  width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  height:60vh;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+   margin-top: 0px;
+  
+  
+}
+.fakeimg1 {
+  background-color: #aaa;
+  width: 100%;
+  height:25vh;
+   margin-top: 0px;
+ 
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+   height:123.5vh;
+  margin-top: 20px;
+}
+.card1 {
+  background-color: white;
+  padding: 20px;
+   height:60vh;
+  margin-top: 20px;
+}
+.card3 {
+  background-color: red;
+  padding: 20px;
+  width: 50%;
+  margin-top: 20px;
+}
+.card4 {
+  background-color: #aaa;
+  padding: 20px;
+   width: 50%;
+  margin-top: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.menu {
+  width: 50%;
+   height:30vh;
+  float: left;
+ 
+  border: 1px solid red;
+}
+.menu1 {
+  width: 100%;
+   height:25vh;
+  float: left;
+ 
+  border: 1px solid red;
+}
+.menu4 {
+  width: 100%;
+   height:10vh;
+  float: left;
+ 
+  border: 1px solid red;
+}
+
+.main {
+  width: 50%;
+  float: left;
+   height:30vh;
+ 
+  border: 1px solid red;
+}
+.main2 {
+  width: 33.33%;
+  float: left;
+   height:30vh;
+ 
+  border: 1px solid red;
+}
+/* Footer */
+.footer {
+ 
+  text-align: center;
+  background: #ddd;
+
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+   
+   <div class="card1">
+     
+     <div class="column">
+      <div class="menu1"><p>จำนวนครอบครัว</p>
+      </div>
+    
+      
+    </div>
+    <div class="menu">
+  <ul>
+    <li>The Flight</li>
+    <li>The City</li>
+    <li>The Island</li>
+    <li>The Food</li>
+  </ul>
+</div>
+
+<div class="main">
+  <h1>The City</h1>
+  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+  
+</div>
+    
+    </div>
+    
+    
+    
+     <div class="card1">
+     
+     <div class="column">
+      <div class="menu1"><p>Image</p>
+      </div>
+    
+      
+    </div>
+    <div class="main2">
+  <ul>
+    <li>The Flight</li>
+    <li>The City</li>
+    <li>The Island</li>
+    <li>The Food</li>
+  </ul>
+</div>
+
+<div class="main2">
+  <h1>The City</h1>
+  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+  
+</div>
+<div class="main2">
+  <h1>The City</h1>
+  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+  
+</div>
+    
+    </div>
+    
+  </div>
+  <div class="rightcolumn">
+    
+    <div class="card">
+      
+      <div class="menu1"><p>Image</p> </div>
+      <div class="menu4"><p>Image</p> </div>
+      <div class="menu4"><p>Image</p> </div>
+      <div class="menu4"><p>Image</p> </div>
+      <div class="menu4"><p>Image</p> </div>
+      <div class="menu4"><p>Image</p> </div>
+      <div class="menu4"><p>Image</p> </div>
+
+      
+    
+  </div>
+</div>
+
+
+
+</body>
+</html>

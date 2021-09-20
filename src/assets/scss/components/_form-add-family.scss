@@ -1,0 +1,53 @@
+.form-add-family {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.87);
+  top: 0;
+  padding-top: 7vmin;
+  padding-bottom: 10vmax;
+  height: fit-content;
+  width: 100%;
+  z-index: 999;
+
+  h2 {
+    color: #fff;
+  }
+}
+
+.form-personal-data-add {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0.8rem;
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  background: #fff;
+
+  #bi-x {
+    position: absolute;
+    top: 1%;
+    right: 0.625rem;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #ff0000;
+    padding: 0;
+    transition: 0.3s;
+
+    i {
+      color: rgb(255, 0, 0);
+      font-size: 1.3rem;
+      margin: 0;
+      transition: 0.3s;
+    }
+
+    &:hover {
+      background: red;
+      box-shadow: 0 0 5px #ff0000;
+
+      i {
+        color: #fff;
+      }
+    }
+  }
+}
